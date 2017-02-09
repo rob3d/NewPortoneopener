@@ -33,7 +33,7 @@ void setup(void){
   
   delay(1000);
   Serial.begin(115200);
-  wifiManager.setSTAStaticIPConfig(_ip, _gw, _sn);
+ // wifiManager.setSTAStaticIPConfig(_ip, _gw, _sn);
 
      if (!wifiManager.autoConnect("ConfigDomotics", "12345678")) {
     Serial.println("failed to connect, we should reset as see if it connects");
