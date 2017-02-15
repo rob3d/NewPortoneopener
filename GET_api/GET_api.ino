@@ -35,7 +35,7 @@ void loop() {
         Serial.print("[HTTP] begin...\n");
         // configure traged server and url
         http.begin("https://my.milan.maison/api/smart_gates/1/status", "A9 E5 6D E5 9F 55 3E F4 1C F7 1A BC 17 70 24 83 68 26 52 18"); //HTTPS //HTTPS
-//http.begin("https://my.milan.maison/api/smart_gates/1/status");
+        //http.begin("https://my.milan.maison/api/smart_gates/1/status");
         Serial.print("[HTTP] GET...\n");
         // start connection and send HTTP header
         int httpCode = http.GET();
