@@ -17,6 +17,7 @@ const char* devApiHost = "192.168.10.114";
 const int apiPort = 443;
 char path[50];
 
+// Testing git client
 RestClient client = RestClient(apiHost, apiPort, fingerprint);
 //RestClient client = RestClient(devApiHost, 3000);
  
